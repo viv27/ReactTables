@@ -1,0 +1,62 @@
+.headerContainer {
+}
+.header {
+  display: flex;
+  align-items: center;
+
+  margin-left: 20px;
+  justify-content: space-between;
+}
+
+.header_title {
+  color: black;
+  font-weight: bold;
+}
+.header_left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header_button {
+  margin-left: 15px;
+  padding: 5px 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  height: 25px;
+}
+
+.header_button:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+hr {
+  width: 100%;
+  height: 1px;
+  background: #fff;
+}
+
+.header_name {
+  margin-right: 90px;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.header_right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_right button {
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 12px;
+  background-color: rgb(219, 248, 238);
+  margin-right: 10px;
+}
+.header_right button {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}

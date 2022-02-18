@@ -1,0 +1,25 @@
+.table_filter {
+  display: flex;
+  flex-direction: row;
+}
+
+.table_content {
+  display: table;
+
+  border-collapse: collapse;
+  margin: 40px auto;
+  font-size: 0.9em;
+  width: 90%;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+}
+
+.table_content thead tr {
+  color: black;
+  text-align: left;
+  font-size: bold;
+}
+
+.table_content th {
+  padding: 12px 15px;
+}
